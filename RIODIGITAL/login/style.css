@@ -1,0 +1,85 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./images/pattern.png);
+}
+
+
+
+#logo{
+    width: 37.5rem;
+}
+
+#container{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    margin-left: 25%;
+    margin-top: 4%;
+    font-family:Arial, Helvetica, sans-serif;
+    justify-content: center;
+    display:inline-block;
+    background-color: rgb(240, 240, 240);
+    border-radius: 1.5rem;
+}
+
+
+
+form{
+    display: block;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 3rem;
+    color: rgb(29, 29, 29);
+}
+h1{
+    padding-bottom: 1rem;
+}
+h3{
+    font-weight: lighter;
+    color: #737373;
+}
+input{
+    margin-bottom: 1rem;
+    display: block;
+    padding: 10px;
+    border: 2px solid #737373;
+    border-radius: 0.75rem;
+    width: 100%;
+    font-size: 1.25rem;
+    color: rgb(29, 29, 29);
+}
+button{
+    margin-top: 1rem;
+    padding: 1.5rem;
+    background-color: #263D80;
+    color: rgb(240, 240, 240);
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 0.75rem;
+    width: 100%;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: #1a2852;
+}
+
+#password{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+#password i{
+    color: #505050;
+    font-size: 2rem;
+    cursor: pointer;
+    position: absolute;
+    right: 3%;
+    margin-bottom: 0.7rem;
+}
